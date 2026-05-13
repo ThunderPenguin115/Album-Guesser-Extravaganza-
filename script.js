@@ -59,7 +59,7 @@ let subTitle = document.getElementById("subTitle");
 let strtBtn = document.getElementById("strtBtn");
 let skipBtn = document.getElementById("skipBtn");
 let gameContainer = document.getElementById("gameContainer");
-let skips = 5;
+let skips = 10;
 let guesses = 3;
 
 function start() {
