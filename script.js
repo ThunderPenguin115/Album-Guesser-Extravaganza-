@@ -38,7 +38,7 @@ const albums = [
   {cover: "albums/tsr.jpg", Title: "The Slow Rush"},
   {cover: "albums/ihd.png", Title: "Infinite Hyperdeath"},
   {cover: "albums/ih.jpg", Title: "Imperfect Hatred"},
-  {cover: "albums/doom.png", Title: "Doom 2016"},
+  {cover: "albums/doom.png", Title: "Doom"},
   {cover: "albums/tmb.jpeg", Title: "The Melodic Blues"},
   {cover: "albums/dfmb.jpg", Title: "Die for My"},
   {cover: "albums/eb.jpg", Title: "Everblack"},
@@ -59,7 +59,7 @@ let subTitle = document.getElementById("subTitle");
 let strtBtn = document.getElementById("strtBtn");
 let skipBtn = document.getElementById("skipBtn");
 let gameContainer = document.getElementById("gameContainer");
-let skips = 55;
+let skips = 5;
 let guesses = 3;
 
 function start() {
