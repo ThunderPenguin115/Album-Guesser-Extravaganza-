@@ -23,7 +23,7 @@ const albums = [
   { cover: "albums/fb.jfif", Title: "Flower boy" },
   { cover: "albums/igor.jpg", Title: "Igor" },
   { cover: "albums/cmiygl.jpg", Title: "Call me if you get lost" },
-  { cover: "/albums/chroma.png", Title: "Chromakopia"},
+  { cover: "albums/chroma.png", Title: "Chromakopia"},
   { cover: "albums/dttg.png", Title: "Dont tap the glass" },
   { cover: "albums/tod.jpg", Title: "This old dog" },
   { cover: "albums/hctc.png", Title: "Here comes the cowboy" },
