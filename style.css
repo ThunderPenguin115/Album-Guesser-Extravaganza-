@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient( to bottom right, lime,hotpink);
+    background-size: cover;
+    text-align: center;
+}
+
+#albumCover{
+    width: 316px;
+    height: 316px;
+    background-size: cover;
+}
+
+#input{
+    height: 15px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.buttons{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.buttons:active{
+        box-shadow: inset 0px 0px 10px black;
+}
