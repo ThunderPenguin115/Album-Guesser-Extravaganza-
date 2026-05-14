@@ -110,6 +110,12 @@ function start() {
   result.textContent = "You have 5 guesses to guess each album.";
 }
 
+document.addEventListener('keypress', function(event){
+  if(event.key === "Enter"){
+    checkAnswer();
+  }
+});
+
 function checkAnswer() {
   let input = document.getElementById("input").value;
   let result = document.getElementById("result");
